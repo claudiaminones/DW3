@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@font-face {
+  font-family: "July Rainstorm";
+  src: url(../fonts/july_rainstorm/July\ Rainstorm.ttf);
+}
+body{
+ 
+}
+.navegacion {
+   background-color: rgba(174, 182, 182, 0.31); 
+   padding: 10px;
+}
+
+
+.navegacion .logo__container img {
+  background-color: white; 
+    width: 120px;
+  }
+ 
+  .logo__container span{
+    font-size: 23;
+    background-color: rgb(180, 238, 180);
+    color: blueviolet;
+  
+  }
+  .paisaje {
+    margin-left: 60px;
+    width: 300;
+    height: 300 ;
+  }
+  .navegacion__nav{
+    background-color: white;
+    padding: 10px;
+    margin:20px ;
+    border: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+ul li{display: inline;
+margin-right: 20px;
+  margin-left: 10px;
+  
+}
+
+
+.imagen__opcion img{
+ background-color: rgba(128, 255, 0, 0.298);
+ padding: 20px;
+ margin: 30px;
+ height: 270px;
+ width: 200px;
+}
+
+.seccion_contacto{
+  background-color: rgba(255, 140, 0, 0.548);
+  padding: 20px;
+  margin:20px;
+  border: 20px;
+  font-size: 14px;
+width: 400;
+
+}
+
+
+.seccion_contacto h2 {
+  font-size: 60;
+  font-family: "July Rainstorm",cursive;
+  color: blueviolet;
+}
+
+
+.pie__pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(243, 176, 225, 0.566);
+  gap: 16px;
+}
+
+.nacionales{
+  width: 200;
+}
+.contcrucero{
+  width: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+ }
+ .grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 140px 40px repeat(3,1fr);
+  gap: 5px;
+  grid-template-areas: 
+  "section1 section2 section3"
+  "section1 section2 section3"
+  "section1 section2 section3"
+  ;
+ }
+ .seccion1{
+  grid-area: section1;
+ }
+ .seccion2{ 
+  grid-area: section2;
+ }
+ .seccion3{ 
+  grid-area: section3;
+ }
+ .seccion1 p{
+font-size: medium;
+color: darkmagenta;
+text-align: center;
+ }
+ .seccion2 p{
+  font-size: medium;
+  color: darkmagenta;
+  text-align: center;
+   }
+ .seccion3 p{
+  font-size: medium;
+  color: darkmagenta;
+  text-align: center;
+  }
